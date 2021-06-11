@@ -122,6 +122,8 @@ The below list of errors are expected for the API's
 ```python
 
 from plaid_python_adapter.plaid_adapter import PlaidAdapter
+from plaid_python_adapter.exceptions import *
+
 
 def create_link_token():
     response_dict = {}

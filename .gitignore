@@ -1,0 +1,3 @@
+dist/*
+build/*
+plaid_python_adapter.egg-info/*
