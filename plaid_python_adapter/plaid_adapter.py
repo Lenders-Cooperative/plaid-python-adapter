@@ -2,7 +2,17 @@ import os, requests, json
 
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
-from plaid_python_adapter.exceptions import PlaidAdapterError, PlaidCreateLinkTokenError, PlaidExchangePublicTokenError, PlaidAuthError, PlaidIdentityError, PlaidApiInternalServerError, PlaidBankTransferSyncEventError, PlaidAdapterConfigurationError
+from plaid_python_adapter.exceptions import (
+    PlaidAdapterError,
+    PlaidCreateLinkTokenError,
+    PlaidExchangePublicTokenError,
+    PlaidAuthError,
+    PlaidIdentityError,
+    PlaidApiInternalServerError,
+    PlaidBankTransferSyncEventError,
+    PlaidAdapterConfigurationError,
+)
+
 
 class PlaidAdapter:
 
