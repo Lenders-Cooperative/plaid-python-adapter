@@ -78,7 +78,7 @@ https://plaid.com/docs/api/products/#identityget
 Use to get bank transfer ACH details
 
 > Mandatory field: <br>
-`after_id` : The latest (largest) event_id fetched via the sync endpoint, or 0 initially.
+`after_id` : The latest (largest) event_id fetched via the sync endpoint, or 0 initially.<br>
 > Optional Field: <br>
 `count` : The maximum number of bank transfer events to return.<br>
 Default: 25 <br>
